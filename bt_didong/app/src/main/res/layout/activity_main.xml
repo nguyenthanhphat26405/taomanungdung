@@ -6,13 +6,15 @@
     android:padding="24dp"
     android:background="@color/white">
 
+    <!-- Login căn giữa -->
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
         android:textSize="28sp"
         android:textStyle="bold"
         android:textColor="@color/black"
+        android:gravity="center"
         android:layout_marginBottom="8dp"/>
 
     <TextView
@@ -21,15 +23,17 @@
         android:text="Please sign in to continue."
         android:textSize="14sp"
         android:textColor="@color/darker_gray"
+        android:layout_gravity="center"
         android:layout_marginBottom="24dp"/>
 
+    <!-- Chỉnh lại Email -> User -->
     <EditText
-        android:id="@+id/etEmail"
+        android:id="@+id/etUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
-        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:hint="User"
+        android:inputType="textPersonName"
+        android:drawableLeft="@android:drawable/ic_menu_myplaces"
         android:padding="12dp"/>
 
     <EditText

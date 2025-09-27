@@ -6,13 +6,15 @@
     android:padding="24dp"
     android:background="@color/white">
 
+    <!-- Create Account căn giữa -->
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Create Account"
         android:textSize="28sp"
         android:textStyle="bold"
         android:textColor="@color/black"
+        android:gravity="center"
         android:layout_marginBottom="24dp"/>
 
     <EditText
@@ -23,13 +25,14 @@
         android:drawableLeft="@android:drawable/ic_menu_edit"
         android:padding="12dp"/>
 
+    <!-- Đổi Email thành User -->
     <EditText
-        android:id="@+id/etEmail"
+        android:id="@+id/etUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
-        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:hint="User"
+        android:inputType="textPersonName"
+        android:drawableLeft="@android:drawable/ic_menu_myplaces"
         android:padding="12dp"
         android:layout_marginTop="12dp"/>
 
